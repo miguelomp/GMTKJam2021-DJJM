@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="/Assets/UI Assets/Styles/button.uss" />
+    <ui:VisualElement name="Wrapper" focusable="true" style="width: 100%; height: 100%; flex-direction: row; flex-grow: 1; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0.31);">
+        <ui:VisualElement name="Container" focusable="true" style="align-items: center; justify-content: center; background-color: rgba(245, 238, 222, 0); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; background-image: url(&apos;/Assets/UI Assets/noisy-background.jpg&apos;); -unity-background-image-tint-color: rgba(255, 255, 255, 0); -unity-background-scale-mode: stretch-to-fill; height: 290px; width: 700px;">
+            <ui:IMGUIContainer style="width: 1141px; height: 468px; position: absolute; background-image: url(&apos;/Assets/UI Assets/Pause Menu/Pause Menu.png&apos;); top: auto; left: auto; -unity-background-scale-mode: stretch-to-fill;" />
+            <ui:VisualElement name="BtnsContainer" focusable="true" style="width: auto; height: 100%; justify-content: center; margin-top: 10px; padding-top: 0; align-items: flex-start; margin-left: 0; margin-right: 0; margin-bottom: 10px; position: absolute; left: 45%;">
+                <ui:Button display-tooltip-when-elided="true" name="Resume" class="resume menu-button" style="background-color: rgba(88, 88, 88, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Button display-tooltip-when-elided="true" name="Quit" class="menu-button" style="background-color: rgba(88, 88, 88, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

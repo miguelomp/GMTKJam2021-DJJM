@@ -1,0 +1,43 @@
+.menu-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Resume:hover {
+    background-image: url('/Assets/UI Assets/Pause Menu/resume button_hover.png');
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    width: 341px;
+    margin-left: -1px;
+}
+
+#Quit:hover {
+    background-image: url('/Assets/UI Assets/Pause Menu/exit button_hover.png');
+    border-left-color: rgb(94, 75, 75);
+    border-right-color: rgb(94, 75, 75);
+    border-top-color: rgb(94, 75, 75);
+    border-bottom-color: rgb(94, 75, 75);
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    width: 199px;
+    margin-left: -2px;
+}
+
+#Resume {
+    background-image: url('/Assets/UI Assets/Pause Menu/resume button.png');
+    width: 330px;
+    height: 62px;
+}
+
+#Quit {
+    background-image: url('/Assets/UI Assets/Pause Menu/exit button.png');
+    width: 187px;
+    height: 65px;
+}

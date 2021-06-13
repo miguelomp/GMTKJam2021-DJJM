@@ -1,0 +1,19 @@
+#close-modal {
+    width: 20px;
+    height: 21px;
+    background-color: rgba(56, 56, 56, 0);
+    background-image: url('/Assets/UI Assets/Start Menu/STORY/X.png');
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    left: 96.5%;
+    top: 5px;
+    bottom: auto;
+    position: absolute;
+    opacity: 0.7;
+}
+
+#close-modal:hover {
+    opacity: 1;
+}

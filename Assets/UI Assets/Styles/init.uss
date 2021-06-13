@@ -1,0 +1,104 @@
+.button {
+    font-size: 60px;
+    -unity-font: resource('Fonts & Materials/Matrix Regular');
+    -unity-font-style: bold;
+    -unity-text-outline-width: 4px;
+    color: rgb(245, 238, 222);
+    background-color: rgba(0, 0, 0, 0);
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-left-color: rgba(48, 48, 48, 0);
+    border-right-color: rgba(48, 48, 48, 0);
+    border-top-color: rgba(48, 48, 48, 0);
+    border-bottom-color: rgba(48, 48, 48, 0);
+    max-width: 500px;
+    min-width: 300px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    width: 500px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -unity-text-align: upper-center;
+}
+
+.button:hover {
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}
+
+#Credits:hover {
+    background-image: url('/Assets/UI Assets/Start Menu/Credits button_hover.png');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-left: -1px;
+    width: 225px;
+    height: 51px;
+    margin-top: -2px;
+}
+
+#Exit:hover {
+    background-image: url('/Assets/UI Assets/Start Menu/exit button_hover.png');
+    position: absolute;
+    top: 11%;
+    right: 2%;
+    width: 148px;
+    height: 52px;
+    margin-top: -2.5px;
+    margin-left: -1px;
+}
+
+#Credits {
+    background-image: url('/Assets/UI Assets/Start Menu/Credits button.png');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    width: 213px;
+    height: 48px;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-left: 0;
+}
+
+#Exit {
+    background-image: url('/Assets/UI Assets/Start Menu/exit button.png');
+    width: 136px;
+    height: 48px;
+    top: 11%;
+    right: 2%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+#close-modal {
+    width: 20px;
+    height: 21px;
+    opacity: 0.8;
+}
+
+#close-modal:hover {
+    opacity: 1;
+}

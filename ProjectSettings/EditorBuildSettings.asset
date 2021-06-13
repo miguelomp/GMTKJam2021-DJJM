@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CrissScene2.unity
+    guid: b97908f461c954243beca52431ee2a56
+  - enabled: 1
+    path: Assets/Scenes/Playroom 3.unity
+    guid: 48b970fb17af4f94f8e96e790350ed4f
   m_configObjects: {}

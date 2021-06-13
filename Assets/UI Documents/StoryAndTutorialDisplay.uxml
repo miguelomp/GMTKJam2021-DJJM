@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="/Assets/UI Assets/Styles/story-tutorial.uss" />
+    <ui:VisualElement name="Wrapper" focusable="true" style="width: 100%; height: 100%; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0.31);">
+        <ui:IMGUIContainer name="Container" style="width: 1338px; height: 811px; background-image: url(&apos;/Assets/UI Assets/Start Menu/STORY/Story BG container.png&apos;); justify-content: center; align-items: center;">
+            <ui:IMGUIContainer name="Story" style="width: 1123px; height: 664px; background-image: url(&apos;/Assets/UI Assets/Start Menu/STORY/Story Cards.png&apos;); display: flex;" />
+            <ui:Button display-tooltip-when-elided="true" name="close-modal" focusable="true" />
+            <ui:IMGUIContainer name="Tutorial" style="width: 998px; height: 712px; display: none; background-image: url(&apos;/Assets/UI Assets/Start Menu/TUTORIAL/TUtorial CARDS.png&apos;);" />
+        </ui:IMGUIContainer>
+        <ui:VisualElement name="press-space__container" style="width: 1310px; align-items: flex-end;">
+            <ui:IMGUIContainer name="press-space" style="width: 287px; height: 18px; background-image: url(&apos;/Assets/UI Assets/Start Menu/STORY/PRESS SPACE TO CONTINUE.png&apos;); align-items: auto;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

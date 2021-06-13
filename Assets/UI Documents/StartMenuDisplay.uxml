@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="/Assets/UI Assets/Styles/init.uss" />
+    <ui:VisualElement name="Wrapper" focusable="true" style="width: 100%; height: 100%; -unity-background-image-tint-color: rgb(255, 255, 255); background-image: url(&apos;/Assets/UI Assets/Start Menu/Base U BGI.jpg&apos;); justify-content: center; align-items: center;">
+        <ui:IMGUIContainer name="press-space" style="background-image: url(&apos;/Assets/UI Assets/Start Menu/PRESS SPACE TO PLAY.png&apos;); width: 231px; height: 18px; position: absolute; top: auto; left: auto; bottom: 30%;" />
+        <ui:Button display-tooltip-when-elided="true" name="Credits" />
+        <ui:Button display-tooltip-when-elided="true" name="Exit" />
+        <ui:IMGUIContainer name="Credits-modal" style="background-image: url(&apos;/Assets/UI Assets/Start Menu/CREDITS MODAL/CREDITS CARD.png&apos;); position: absolute; width: 1009px; height: 657px; display: none;">
+            <ui:Button display-tooltip-when-elided="true" name="close-modal" style="background-image: url(&apos;/Assets/UI Assets/Start Menu/CREDITS MODAL/X.png&apos;); background-color: rgba(88, 88, 88, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; right: auto; left: 95%; top: 13%;" />
+        </ui:IMGUIContainer>
+    </ui:VisualElement>
+</ui:UXML>
